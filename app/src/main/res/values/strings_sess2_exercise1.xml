@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nametxt">Name:</string>
+    <string name="pstxt">Password:</string>
+    <string name="btnlogin">LOGIN</string>
+    <string name="btncancel">CANCEL</string>
+</resources>
