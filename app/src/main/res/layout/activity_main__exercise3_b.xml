@@ -4,26 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity_Exercise3A"
-    android:orientation="vertical"
-    android:layout_weight="3">
+    tools:context=".MainActivity_Exercise3B">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="2"
-        android:text="@string/wlcAndroid">
-
-    </TextView>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wlcAndroid"
+        ></TextView>
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/btnName"
-        android:layout_weight="1">
+        android:layout_height="wrap_content"
+        android:text="@string/btnName">
 
     </androidx.appcompat.widget.AppCompatButton>
-
-
 
 </androidx.appcompat.widget.LinearLayoutCompat>
