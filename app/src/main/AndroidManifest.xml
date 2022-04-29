@@ -9,15 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DemoMySecondApp">
-        <activity android:name=".MainActivity_Exercise_4B"></activity>
+        <activity android:name=".MainActivity_Exercise_4B"> <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
         <activity android:name=".MainActivity_4A" />
         <activity android:name=".MainActivity_Exercise3B" />
         <activity android:name=".MainActivity_Exercise3A">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".MainActivity_Exercise2D" />
         <activity android:name=".MainActivity_Exercise2C" />
