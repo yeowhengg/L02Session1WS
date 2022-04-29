@@ -24,9 +24,9 @@
             android:text="@string/btnName"
             android:textColor="@color/black"
             android:background="@drawable/button_shape"
-            android:backgroundTint="@color/grey"
+
             >
-        </>
+        </androidx.appcompat.widget.AppCompatButton>
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
